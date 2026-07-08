@@ -754,27 +754,13 @@ a:focus-visible {
   margin-top: 36px;
 }
 
-.insurance-hero {
-  align-items: center;
-  background-image: linear-gradient(135deg, #eaf3ee 0%, #d9ebe1 55%, #cfe4e9 100%);
-  border-radius: var(--radius-lg);
-  display: flex;
-  justify-content: center;
-  margin: 0 auto 50px;
-  max-width: var(--wide-width);
-  min-height: 260px;
-  padding: 40px 24px;
-}
-
-.insurance-card {
-  background: #ffffff;
-  border-radius: var(--radius-md);
-  box-shadow: var(--shadow-soft);
+.insurance-text {
+  margin: 0 auto 70px;
   max-width: 760px;
-  padding: clamp(2.5rem, 5vw, 4.2rem) clamp(2.3rem, 6vw, 5.1rem);
+  padding: clamp(1.5rem, 4vw, 3rem) 24px 0;
 }
 
-.insurance-card h1 {
+.insurance-text h1 {
   color: var(--color-text);
   font-family: "Fraunces", Georgia, serif;
   font-size: clamp(1.9rem, 4.5vw, 3rem);
@@ -784,7 +770,7 @@ a:focus-visible {
   margin: 0 0 24px;
 }
 
-.insurance-card h1::before {
+.insurance-text h1::before {
   background: var(--color-primary);
   border-radius: 999px;
   content: "";
@@ -794,7 +780,7 @@ a:focus-visible {
   width: 48px;
 }
 
-.insurance-card p {
+.insurance-text p {
   color: var(--color-muted);
   margin: 0;
 }
@@ -982,13 +968,8 @@ a:focus-visible {
     padding: 36px 24px;
   }
 
-  .insurance-hero {
-    border-radius: var(--radius-md);
-    min-height: 220px;
-  }
-
-  .insurance-card {
-    padding: 2rem 1.6rem;
+  .insurance-text {
+    padding: 1.5rem 22px 0;
   }
 
   .map-caption {
