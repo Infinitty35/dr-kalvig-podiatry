@@ -756,9 +756,7 @@ a:focus-visible {
 
 .insurance-hero {
   align-items: center;
-  background-image: linear-gradient(rgba(28, 35, 33, 0.28), rgba(28, 35, 33, 0.28)), url("../assets/images/insurance-hero.jpg");
-  background-position: center;
-  background-size: cover;
+  background-image: linear-gradient(135deg, #eaf3ee 0%, #d9ebe1 55%, #cfe4e9 100%);
   border-radius: var(--radius-lg);
   display: flex;
   justify-content: center;
